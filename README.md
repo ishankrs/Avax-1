@@ -18,24 +18,24 @@ This contract fulfills the following requirements:
 
 ## Functions
 
-### `constructor()`
+### `constructor`
 
 - Initializes the contract with an initial amount of total money (`100`).
 
-### `createJob(uint _targets, uint _valuePerTarget)`
+### `createJob`
 
 - Creates a new job with specified targets and payment per target.
 
-### `acceptJob(uint _agentId)`
+### `acceptJob`
 
 - Allows only Agent 47 (`_agentId == 47`) to accept the job.
 
-### `completeMission()`
+### `completeMission`
 
 - Completes the mission by adding rewards (`targets * valuePerTarget + 100`) to total money.
 - Uses `assert()` to ensure total money is correctly updated.
 
-### `abortMission()`
+### `abortMission`
 
 - Aborts the mission, deducting a penalty (`100`) from total money if there are pending targets.
 - Uses `revert()` to prevent total money from going negative.
