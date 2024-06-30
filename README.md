@@ -54,7 +54,7 @@ This contract fulfills the following requirements:
 4. **Compile Contract**:
    - Navigate to the "Solidity Compiler" tab on the left sidebar.
    - Select `HitmanContract.sol`.
-   - Choose the appropriate compiler version (`0.8.0` as specified).
+   - Choose the appropriate compiler version .
 
 5. **Deploy and Interact**:
    - Switch to the "Deploy & Run Transactions" tab.
